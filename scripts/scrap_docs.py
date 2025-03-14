@@ -87,7 +87,7 @@ print(f"Selected User-Agent: {u_agent}")
 headers = {
     'Accept': 'application/json, text/plain, */*',
     'Content-Type': 'application/json-patch+json',
-    'Origin': 'https://search.fsc.org',
+    'Origin': '',
     'Referer': initial_page_url,
     'User-Agent': u_agent,
     'X-Xsrf-Token': session.cookies.get('XSRF-TOKEN', ''),
